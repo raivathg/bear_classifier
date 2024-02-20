@@ -1,3 +1,4 @@
+!pip install fastai
 from fastai.vision.all import *
 
 def type_of_bear(x): return x[0].isupper() 
